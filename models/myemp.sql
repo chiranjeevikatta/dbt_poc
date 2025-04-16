@@ -1,0 +1,1 @@
+select * from public.emp where dep_id = 101
