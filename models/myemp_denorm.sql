@@ -1,3 +1,4 @@
+{{config(materialized='table')}}
 select 
 a.*, b.name as dep_name
 from
