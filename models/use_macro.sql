@@ -1,0 +1,1 @@
+select *, {{get_yesterday()}} from public.emp where dep_id = 101
